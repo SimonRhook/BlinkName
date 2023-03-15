@@ -63,7 +63,7 @@ void loop() {
     
 while (digitalRead(button) == LOW) {    
 
-    //S . . .
+ /*   //S . . .
       
     if (digitalRead(button) == LOW) dot(); else break;
     if (digitalRead(button) == LOW) dot(); else break;
@@ -90,6 +90,41 @@ while (digitalRead(button) == LOW) {
     //N - .
     if (digitalRead(button) == LOW) dash(); else break;
     if (digitalRead(button) == LOW) dot(); else break;
+    delay(1000);
+    
+    */
+  
+  
+  //R .-.
+      
+    if (digitalRead(button) == LOW) dot(); else break;
+    if (digitalRead(button) == LOW) dash(); else break;
+    if (digitalRead(button) == LOW) dot(); else break;
+    delay(gap);
+      
+    //H ....
+    if (digitalRead(button) == LOW) dot(); else break;
+    if (digitalRead(button) == LOW) dot(); else break;  
+    if (digitalRead(button) == LOW) dot(); else break;
+    if (digitalRead(button) == LOW) dot(); else break;
+    delay(gap);
+    //O - - -
+      
+    if (digitalRead(button) == LOW) dash(); else break;
+    if (digitalRead(button) == LOW) dash(); else break;
+    if (digitalRead(button) == LOW) dash(); else break;
+    delay(gap);
+    //O - - - 
+     
+    if (digitalRead(button) == LOW) dash(); else break;
+    if (digitalRead(button) == LOW) dash(); else break;
+    if (digitalRead(button) == LOW) dash(); else break;
+    delay(gap);
+      
+    //K -.-
+    if (digitalRead(button) == LOW) dash(); else break;
+    if (digitalRead(button) == LOW) dot(); else break;
+    if (digitalRead(button) == LOW) dash(); else break;
     delay(1000);
   
 }
